@@ -12,10 +12,9 @@ def ejr2(cadena):
     else:
         return False
 
-def ejr3(lista, a, b, c):
-    for i in range(a,b+1, c):
-        lista.append(i)
-    return lista
+def ejr3( a, b, c):
+    m = list(range(a,b,c))
+    return m
 
 def tabla(a,b):
     lista = []
