@@ -32,4 +32,5 @@ def tabla(a,b):
                     lista[i].append([])
         printear_matriz(lista, 0)
     else:
-        print("No son validos")
+        print("No son validos, elija otros: ")
+        tabla(int(input("Introduzca el numero de filas: ")), int(input("Introduzca el numero de columnas: ")))
