@@ -8,10 +8,11 @@ El ejercicio resuelto de codewars:
 
 El código de este proyecto es el siguiente:
 ```
-matriz = [[1,1,1],[2,2,2],[3,3,3],[4,4,4]]
+matriz = [[1,1,1,3],[2,2,2,7],[3,3,3,9],[4,4,4,13]]
 
 def ejr1(i):
     if i < len(matriz):
+        matriz[i].pop(len(matriz[i])-1)
         matriz[i].append(sum(matriz[i]))
         ejr1(i+1)
     return matriz
