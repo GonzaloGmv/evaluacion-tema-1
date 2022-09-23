@@ -1,4 +1,4 @@
-from lanzador import agrupar
+from lanzador import main
 
 if __name__ == "__main__":
-    agrupar()
+    main()

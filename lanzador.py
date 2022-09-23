@@ -1,6 +1,6 @@
 from ejr import ejr1, matriz, ejr2, ejr3, tabla
 
-def agrupar():
+def main():
     print("EJERCICIO 1")
     m = ejr1(0)
     for i in range(0, len(matriz)):
