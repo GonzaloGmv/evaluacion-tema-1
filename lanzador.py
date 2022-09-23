@@ -1,4 +1,4 @@
-from ejr import ejr1, matriz, ejr2, ejr3, tabla
+from ejr import ejr1, matriz, ejr2, ejr3, tabla, string_to_array
 
 def main():
     print("EJERCICIO 1")
@@ -17,3 +17,6 @@ def main():
     t=(tabla(4,3))
     for i in range(0, len(t)):
         print(t[i])
+    print("EJERCICIO CODEWARS")
+    string_to_array("Robin Singh")
+    string_to_array("I love arrays they are my favorite")

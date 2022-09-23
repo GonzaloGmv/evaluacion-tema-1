@@ -25,3 +25,7 @@ def tabla(a,b):
             for j in range(0,b):
                 lista[i].append([])
     return lista
+
+def string_to_array(s):
+    a = s.split()
+    print(a)
